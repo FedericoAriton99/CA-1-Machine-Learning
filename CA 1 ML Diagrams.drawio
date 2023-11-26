@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2023-11-25T06:29:10.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OKJe5m8RxYE-S_qSwG7d" version="21.5.2" type="device">
+  <diagram name="Page-1" id="2lYsS5HaYPLIt5kZKnEX">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-1" value="Covid 19 dataset" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-2" value="What we want predict?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-3" value="High risk or not&amp;nbsp;&lt;br&gt;prediction" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-5" value="Y = to new column DEATH" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-6" value="x = drop colums ICU,INTUBED AND DATE_DIED" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-7" target="-vcLDuEnbsaSzLUyllLv-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-7" value="Identify patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-8" target="-vcLDuEnbsaSzLUyllLv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-8" value="Normalazing data or scaling data?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-1" target="-vcLDuEnbsaSzLUyllLv-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="120" as="sourcePoint" />
+            <mxPoint x="439" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.792;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-2" target="-vcLDuEnbsaSzLUyllLv-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="210" as="sourcePoint" />
+            <mxPoint x="290" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.967;exitY=0.338;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-3" target="-vcLDuEnbsaSzLUyllLv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364" y="230" as="sourcePoint" />
+            <mxPoint x="364" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.033;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-3" target="-vcLDuEnbsaSzLUyllLv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="347" as="sourcePoint" />
+            <mxPoint x="468" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-3" target="-vcLDuEnbsaSzLUyllLv-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="388" as="sourcePoint" />
+            <mxPoint x="454" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-16" target="-vcLDuEnbsaSzLUyllLv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-16" target="-vcLDuEnbsaSzLUyllLv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-16" target="-vcLDuEnbsaSzLUyllLv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-16" target="-vcLDuEnbsaSzLUyllLv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-16" value="Implementing models" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-17" value="Random forest" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-18" value="Knn model" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-19" value="Logistic Regression" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-20" target="-vcLDuEnbsaSzLUyllLv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-20" value="PCA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-21" value="Implementing models: LR,LDA,KNN,CART,NB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="520" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-30" target="-vcLDuEnbsaSzLUyllLv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-30" value="EDA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-35" value="Describe data and data cleanning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vcLDuEnbsaSzLUyllLv-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-vcLDuEnbsaSzLUyllLv-35" target="-vcLDuEnbsaSzLUyllLv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364" y="110" as="sourcePoint" />
+            <mxPoint x="364" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
